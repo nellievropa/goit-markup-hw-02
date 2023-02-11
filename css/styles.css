@@ -1,0 +1,119 @@
+:root {
+    --brand-color: #2196F3;
+    --text-color-main: #212121;
+    --text-color-gray: #757575;
+    --black: #000000;
+    --white:  #FFFFFF;
+
+    --background-color: #2F303A;
+    --background-color-light: #F5F4FA;
+}
+
+
+
+body {
+    background-color: var(--white);
+    color: var(--text-color-main);
+}
+/* важно УБРАТЬ ТОЧКИ */
+/* ul {
+    list-style: none;
+} */
+.list {
+    list-style: none;
+}
+.logo {
+    text-decoration: none;
+    color: var(--text-color-main);
+}
+.logo-brand {
+    color: var(--brand-color);
+}
+.logo:hover {
+    color: var(--text-color-gray)
+}
+.logo-brand:hover {
+    color: var(--text-color-gray);
+}
+/* Site nav */
+.site-nav .link {
+    text-decoration: none;
+    color: var(--text-color-main);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #2196F3;
+}
+.site-nav .link.current {
+    color: var(--brand-color);
+}
+.contact-nav .link {
+    text-decoration: none;
+    color: var(--text-color-gray);
+}
+.contact-nav .link:hover,
+.contact-nav .link:focus {
+    color: #2196F3;
+}
+
+/* Hero */
+.hero-section {
+    background-color: var(--background-color);
+}
+.hero-title {
+    color: var(--white);
+}
+/* Button */
+.button{
+    background-color: var(--brand-color);
+    color: var(--white);
+}
+
+.button:hover,
+.button:focus {
+    background-color: var(--white);
+    color: var(--brand-color);
+}
+.button-secondary {
+    background-color: var(--background-color-light);
+    color: var(--text-color-main);
+    text-decoration: none;
+     
+}
+.button-secondary:hover,
+.button-secondary:focus {
+    background-color: var(--brand-color);
+    color: var(--white);
+}
+
+/* Sections */
+
+/* Our peculiarities */
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+    }
+.pecul-section .title {
+
+}
+
+.descr {
+    color: var(--text-color-gray);
+}
+
+
+    /*  */
+.section-title {
+    color: var(--text-color-main);
+}
+.address {
+    color: var(--white);
+}

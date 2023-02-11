@@ -5,36 +5,154 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Header -->
-    <header>
+    <header class="page-header">
       <nav>
-        <a href="./index.html">Web<span>Studio</span></a>
+        <a href="./index.html" class="logo"
+          ><span class="logo-brand">Web</span>Studio</a
+        >
 
-        <ul>
-          <li><a href="#">Студія</a></li>
-          <li><a href="#">Портфоліо</a></li>
-          <li><a href="#">Контакти</a></li>
+        <ul class="site-nav list">
+          <li><a href="./index.html" class="link">Студія</a></li>
+          <li><a href="#" class="link current">Портфоліо</a></li>
+          <li><a href="#" class="link">Контакти</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="contact-nav list">
+        <li>
+          <a href="mailto:info@devstudio.com" class="link"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
       </ul>
     </header>
     <!-- main -->
-   
+    <main>
+      <h1>Portpholio page</h1>
+      <section>
+        <h2>Site navigation</h2>
+        <ul class="site-nav list">
+          <li><a href="" class="button-secondary">Усі</a></li>
+          <li><a href="" class="button-secondary">Веб-сайти</a></li>
+          <li><a href="" class="button-secondary">Веб-сайти</a></li>
+          <li><a href="" class="button-secondary">Додатки</a></li>
+          <li><a href="" class="button-secondary">Дизайн</a></li>
+          <li><a href="" class="button-secondary">Маркетинг</a></li>
+        </ul>
+      </section>
+      <h2>Our works</h2>
+      <ul>
+        <li>
+          <img
+            src="./images/portfolio/technokriak.jpg"
+            width="370"
+            height="294"
+            alt="Сторінка сайту відкрита на ноутбуці з фото команди"
+          />
+          <h3>Технокряк</h3>
+          <p>Веб-сайт</p>
+        </li>
+        <li>
+          <img
+            src="./images/portfolio/new-orlean.jpg"
+            idth="370"
+            height="294"
+            alt="Два баскетболісти з мячем"
+          />
+          <h3>Постер New Orlean vs Golden Star</h3>
+          <p>Дизайн</p>
+        </li>
+        <li>
+          <img
+            src="./images/portfolio/seafood.jpg"
+            idth="370"
+            height="294"
+            alt="Макет логотипу ресторану Сиафуд"
+          />
+          <h3>Ресторан Seafood</h3>
+          <p>Додаток</p>
+        </li>
+        <li>
+          <img
+            src="./images/portfolio/prime.jpg"
+            idth="370"
+            height="294"
+            alt="Фото навушників чорних"
+          />
+          <h3>Проєкт Prime</h3>
+          <p>Маркетинг</p>
+        </li>
+        <li>
+          <img
+            src="./images/portfolio/boxes.jpg"
+            idth="370"
+            height="294"
+            alt="Фото двох коробок з лого проекту"
+          />
+          <h3>Проєкт Boxes</h3>
+          <p>Додаток</p>
+        </li>
+        <li>
+          <img
+            src="./images/portfolio/inspiration-has-noborder.jpg"
+            idth="370"
+            height="294"
+            alt="Монітор з головною сторінкою сайту"
+          />
+          <h3>Inspiration has no Borders</h3>
+          <p>Веб-сайт</p>
+        </li>
+        <li>
+          <img
+            src="./images/portfolio/limited-editions.jpg"
+            idth="370"
+            height="294"
+            alt="Розгорнуте видання албому проекту"
+          />
+          <h3>Видання Limited Edition</h3>
+          <p>Дизайн</p>
+        </li>
+        <li>
+          <img
+            src="./images/portfolio/lab.jpg"
+            idth="370"
+            height="294"
+            alt="Розроблений макет лейби бренду"
+          />
+          <h3>Проєкт LAB</h3>
+          <p>Маркетинг</p>
+        </li>
+        <li>
+          <img
+            src="./images/portfolio/growing-business.jpg"
+            idth="370"
+            height="294"
+            alt="На екрані ноутбука головна сторінка додатку"
+          />
+          <h3>Growing Business</h3>
+          <p>Додаток</p>
+        </li>
+      </ul>
+    </main>
+
     <!-- Footer -->
     <footer>
-      <a href="">Web<span>Studio</span></a>
+      <a href="#" class="logo"><span class="logo-brand">Web</span>Studio</a>
       <address>
-        <p>м. Київ, пр-т Лесі Українки, 26</p>
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
+        <p class="address">м. Київ, пр-т Лесі Українки, 26</p>
       </address>
+      <ul class="contact-nav list">
+        <li>
+          <a href="mailto:info@devstudio.com" class="link"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+      </ul>
     </footer>
   </body>
 </html>
