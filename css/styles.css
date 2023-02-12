@@ -23,7 +23,7 @@ ul {
 
 .logo {
   text-decoration: none;
-  color: var(--text-color-main);
+  color: var(--black);
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
@@ -100,7 +100,6 @@ ul {
   color: var(--brand-color);
 }
 
-
 /* Sections */
 
 /* Our peculiarities */
@@ -164,6 +163,9 @@ ul {
 .logo-white {
   color: var(--white);
 }
+.logo-white:hover {
+    color: var(--text-color-gray);
+  }
 .section-title {
   color: var(--text-color-main);
 }
@@ -175,38 +177,45 @@ ul {
   letter-spacing: 0.03em;
   cursor: pointer;
 }
-.foot {
+.link-foot {
+  font-size: 14px;
+  line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.contact-nav .link-foot:hover,
+.contact-nav .link-foot:focus {
+  color: #2196f3;
 }
 
 /* Portpholio */
 .button-secondary {
-    background-color: var(--background-color-light);
-    color: var(--text-color-main);
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: calc(26 / 16);
-    text-align: center;
-    letter-spacing: 0.03em;
-    cursor: pointer;
-  }
-  .button-secondary:hover,
-  .button-secondary:focus {
-    background-color: var(--brand-color);
-    color: var(--white);
-  }
-  /* Our work */
-  .title-work {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: calc(36 / 18);
-    letter-spacing: 0.06em;
-  }
-  .descr-work {
-    font-size: 16px;
-    line-height: calc(30 / 16);
-    letter-spacing: 0.03em;
-    color: var(--text-color-gray);
-  }
+  background-color: var(--background-color-light);
+  color: var(--text-color-main);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+.button-secondary:hover,
+.button-secondary:focus {
+  background-color: var(--brand-color);
+  color: var(--white);
+}
+/* Our work */
+.title-work {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  letter-spacing: 0.06em;
+}
+.descr-work {
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  letter-spacing: 0.03em;
+  color: var(--text-color-gray);
+}
