@@ -218,7 +218,7 @@ text-decoration: none;
   font-size: 18px;
   line-height: calc(36 / 18);
   letter-spacing: 0.06em;
- 
+ color: var(--text-color-main);
 
 }
 .descr-work {
